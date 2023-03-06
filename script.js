@@ -1,4 +1,4 @@
-(() =>{
+(() =>{ // Inmediately invoked function expression IIFE
 const btn = document.querySelector ('[data-form-btn]');
 
 // Arrow function o funciones anonimas
@@ -37,7 +37,7 @@ const checkComplete = () => {
     i.addEventListener('click', completeTask)
     return i;
 }
-// Inmediately invoked function expression IIFE
+
 // Boton de marcado de tarea
 const completeTask = (event) =>{
   const element = event.target;
